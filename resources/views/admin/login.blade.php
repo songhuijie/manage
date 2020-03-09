@@ -86,6 +86,9 @@
             </div>
         </form>
     </div>
+    <footer style="padding-top: 90%">
+        备案号<a href="http://www.beian.miit.gov.cn">33010602009975号</a>
+    </footer>
     <!-- /.login-box-body -->
 </div>
 <!-- /.login-box -->

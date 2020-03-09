@@ -19,4 +19,10 @@ Route::group([
     $router->get('auth/login', 'Auth\AuthController@getLogin');
     $router->post('auth/login', 'Auth\AuthController@postLogin');
     $router->get('auth/logout', 'Auth\AuthController@getLogout');
+
+    $router->resource('categories', CategoryController::class);
+    $router->resource('articles', ArticleController::class);
+    $router->resource('banners', BannerController::class);
+
+
 });

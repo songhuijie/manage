@@ -14,7 +14,9 @@
         "jxlwqq/json-editor": "^1.0",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
-        "mews/captcha": "^3.0"
+        "mews/captcha": "^3.0",
+        "predis/predis": "^1.1",
+        "stevenyangecho/laravel-u-editor": "~1.4"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
